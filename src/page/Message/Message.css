@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.body{
+    width: 100%;
+    min-height: 828px;
+    /* min-width: 320px;
+    max-width: 640px; */
+    
+    margin: 0 auto;
+    font-size: 14px;
+    font-family:  -apple-system, Helvetica,sans-serif;
+    line-height: 1.5;
+    
+}
+.messageHeader{
+    /* height: 82.8px;
+    line-height: 82.8px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700; */
+
+    
+   
+    width: 100%;
+    height: 82.8px;
+    line-height: 82.8px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgba(8, 184, 102, 0.5);
+    /* background-color: rgb(6, 90, 13); 设置背景色，根据你的需要调整 */
+   
+    
+}
+.main{
+    overflow: hidden;
+    height: 745.2px;
+    background-color: rgb(244, 244, 244,0.5);
+    padding-bottom: 20px; 
+    
+}
+
+.nav{
+
+    height: 150px;
+
+    border-top:1px solid black ;
+    border-bottom: 1px solid black;
+
+}
+
+
+.navBlock{
+
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 15px;
+    margin-left: 15px;
+    /* margin-right: 20px; */
+}
+
+.navBlock0{
+
+  margin-top: 5px;
+  font-size: 20px;
+  line-height: 15px;
+  margin-left: 0px;
+  /* margin-right: 20px; */
+}
+
+
+.navBlock1{
+  display: flex;
+
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.navBlock2{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.navBlock3{
+  width: 20px;
+
+  margin-top: 50px;
+  margin-right: 30px;
+  
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.detail{
+  background-color: rgba(88, 85, 85, 0.5);
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  
+  border-radius: 10px; 
+  padding: 5px;
+}
+
+.detail1{
+  background-color: rgba(8, 184, 102, 0.5);
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  
+  border-radius: 10px; 
+  padding: 5px;
+}
+
+.info{
+    display: flex;
+    height: 150px;
+    width:100%;
+    line-height: 60px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.block{
+  width:60%
+}
+
+.block1{
+  width:30%;
+  height:80% ;
+}
+
+
+.block1 img {
+    display: block;
+    max-width: 100%; /* 图片最大宽度为父容器宽度 */
+    max-height: 100%; /* 图片最大高度为父容器高度 */
+    object-fit: contain; /* 控制图片填充方式，可以根据需要选择 "cover"、"contain" 等 */
+    margin-right: 15px;
+}
+
+.block2 {
+    display: block;
+    margin-top: 25px; /* 或者你想要的间距值 */
+    font-size: 15px; /* 根据需要调整字体大小 */
+    line-height: 30px; /* 根据需要调整行间距 */
+}
+
+.compName{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.form-title {
+    margin-top: 20px; /* 调整上边距，根据需要调整具体数值 */
+    margin-bottom: 20px;
+    font-size: 25px;
+    display: flex; 
+    font-weight: bold;
+    margin-left: 15px; 
+  }
+
+  .form-title div {
+    margin-left: 10px; /* 为文本和图标之间添加一些间距 */
+    font-size: 20px;
+  }
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    margin-left: 15px; 
+  }
+  
+  .form-label label {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  
+  .form-label input {
+    font-size: 18px;
+    padding: 8px;
+  }
+  
+  .form-label button {
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+
+  .footer {
+    margin-top: auto; /* 将 footer 推到页面底部 */
+    background-color: #f0f0f0;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between; /* 将子元素分散对齐，最右边的元素会靠右 */
+
+  }
+
+  .footer > div {
+    display: flex; /* 使子元素内部也成为 Flex 容器 */
+    align-items: center; /* 在交叉轴上居中对齐 */
+  }
+  
+  .footer .support {
+    margin-left: 4px; /* 为文本和图标之间添加一些间距 */
+    font-size: 20px;
+  }
+
+  .footer .amount {
+    margin-left: auto; /* 将 "￥388" 字样推到右侧 */
+    color: #f50505; /* 设置文本颜色 */
+    margin-right: 10px; 
+    font-size: 20px;
+  }
+
+  .footer .submit-button {
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #4caf50; /* 添加背景颜色，可以根据你的设计更改 */
+    color: #fff; /* 设置文本颜色 */
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
