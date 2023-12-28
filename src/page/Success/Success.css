@@ -7,7 +7,7 @@
     min-height: 828px;
     /* min-width: 320px;
     max-width: 640px; */
-    
+    height: auto;
     margin: 0 auto;
     font-size: 14px;
     font-family:  -apple-system, Helvetica,sans-serif;
@@ -36,7 +36,7 @@
 }
 .main{
     overflow: hidden;
-    height: 745.2px;
+    height: auto;
     background-color: rgb(244, 244, 244,0.5);
     padding-bottom: 20px; 
     

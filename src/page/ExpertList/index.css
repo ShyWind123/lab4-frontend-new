@@ -4,6 +4,7 @@
 }
 .body{
     width: 100%;
+    height:auto;
     min-height: 828px;
     min-width: 320px;
     max-width: 640px;
@@ -21,7 +22,7 @@
 }
 .main{
     overflow: hidden;
-    height: 745.2px;
+    height: auto;
     background-color: rgb(244, 244, 244,0.5);
 }
 .nav10{
@@ -91,7 +92,7 @@
     top: 110px;
     left: 70px;
     height: 25px;
-    width: 50%;
+    width: 60%;
     line-height: 25px;
 }
 .mes{

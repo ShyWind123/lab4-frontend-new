@@ -4,6 +4,7 @@
 }
 .body{
     width: 100%;
+    height: auto;
     min-height: 828px;
     min-width: 320px;
     max-width: 640px;
